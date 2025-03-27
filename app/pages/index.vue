@@ -3,6 +3,7 @@
     <h1 class="font-bold text-2xl text-(--ui-primary)">
       Nuxt UI - Starter
     </h1>
+    <Daftar />
 
     <div class="flex items-center gap-2">
       <UButton
@@ -11,6 +12,10 @@
         to="https://ui.nuxt.com/getting-started/installation/nuxt"
         target="_blank"
       />
+
+  <UBadge icon="i-lucide-rocket" size="xl" color="primary" variant="soft">Badge</UBadge>
+
+
 
       <UButton
         label="GitHub"
